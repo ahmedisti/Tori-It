@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap-v5.0-cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- font-awesome-cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+
+    <!-- own-css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive-style.css" />
+    <!-- fav-icon -->
+    <link rel="icon" href="./images/tori-logo.png" />
+    <title>Tori IT</title>
+  </head>
+  <body>
+    <div id="top-bar" class="hidden-sm-down py-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-12 d-flex">
+            <div class="top-bar-welcome">
+              <ul>
+                <li>
+                  Welcome to
+                  <span
+                    style="color: #de1b78; font-weight: 500; font-weight: bold"
+                    >Tori IT</span
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="top-bar-info">
+              <ul class="d-flex">
+                <div>
+                  <li><i class="fas fa-phone"></i> +8801958424000</li>
+                </div>
+                <div>
+                  <li><i class="fas fa-envelope"> </i> info@toriit.com</li>
+                </div>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2 col-12 d-flex">
+            <ul class="social-icons hidden-md-down d-flex">
+              <div>
+                <li>
+                  <a href="facebook.com"><i class="fab fa-facebook"></i></a>
+                </li>
+              </div>
+              <div>
+                <li>
+                  <a href="linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+              </div>
+              <div>
+                <li>
+                  <a href="twitter.com"><i class="fab fa-twitter"></i></a>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header design -->
+
+    <header>
+      <nav class="navbar navbar-expand-lg navigation-wrap">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="images/tori-logo.png" class="logo" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            style="color: var(--primary-color)"
+          >
+            <i class="fas fa-stream navbar-toggler-icon"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#security">Security</a>
+              </li> -->
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#about-us">About Us</a>
+              </li> -->
+
+              <!-- hosting dropdown start -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-expanded="false"
+                  >Hosting</a
+                >
+                <ul class="dropdown-menu">
+                  <div class="d-flex justify-content-evenly">
+                    <div>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          style="text-decoration: none"
+                          href="#"
+                        >
+                          <span
+                            ><i class="fas fa-user-circle"></i>
+                            <strong>Web Hosting </strong>
+                            <p style="font-size: 12px; font-weight: 300">
+                              Best Hosting Package for You
+                            </p></span
+                          >
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          style="text-decoration: none"
+                          href="#"
+                        >
+                          <span
+                            ><i class="fas fa-user-circle"></i>
+                            <strong>Premium Hosting </strong>
+                            <p style="font-size: 12px; font-weight: 300">
+                              Heavy Traffic Hosting Packages
+                            </p></span
+                          >
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          style="text-decoration: none"
+                          href="#"
+                        >
+                          <span
+                            ><i class="fas fa-user-circle"></i>
+                            <strong>Reseller Hosting </strong>
+                            <p style="font-size: 12px; font-weight: 300">
+                              Start Your Hosting Business
+                            </p></span
+                          >
+                        </a>
+                      </li>
+                    </div>
+
+                    <div>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          style="text-decoration: none"
+                          href="#"
+                        >
+                          <span
+                            ><i class="fas fa-server"></i>
+                            <strong> VPS Managed</strong>
+                            <p style="font-size: 12px; font-weight: 300">
+                              Virtual Private Server for You
+                            </p></span
+                          >
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          style="text-decoration: none"
+                          href="#"
+                        >
+                          <span
+                            ><i class="fas fa-server"></i>
+                            <strong> VPS Unmanaged</strong>
+                            <p style="font-size: 12px; font-weight: 300">
+                              Virtual Private Server for You
+                            </p></span
+                          >
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          style="text-decoration: none"
+                          href="#"
+                        >
+                          <span
+                            ><i class="fas fa-server"></i>
+                            <strong>Dedicated Server</strong>
+                            <p style="font-size: 12px; font-weight: 300">
+                              Dedicated Resource for You
+                            </p></span
+                          ></a
+                        >
+                      </li>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+
+              <!-- hosting dropdown end -->
+
+              <li class="nav-item">
+                <a class="nav-link" href="#explore-tori">Features</a>
+              </li>
+
+              <!-- web-domain dropdown start -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-expanded="false"
+                  >Web Domain</a
+                >
+                <ul class="dropdown-menu">
+                  <div class="d-flex">
+                    <div>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          style="text-decoration: none"
+                          href="#"
+                        >
+                          <span
+                            ><i class="fas fa-dollar-sign"></i>
+                            <strong>Price List </strong>
+                            <p style="font-size: 12px; font-weight: 300">
+                              See Our All Domain Prices
+                            </p></span
+                          >
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          style="text-decoration: none"
+                          href="#"
+                        >
+                          <span
+                            ><i class="fas fa-globe-europe"></i>
+                            <strong>Domain Registration </strong>
+                            <p style="font-size: 12px; font-weight: 300">
+                              Register Your Domain Today
+                            </p></span
+                          >
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          style="text-decoration: none"
+                          href="#"
+                        >
+                          <span
+                            ><i class="far fa-compass"></i>
+                            <strong>.BD Domain Registration </strong>
+                            <p style="font-size: 12px; font-weight: 300">
+                              BD Local Domain
+                            </p></span
+                          >
+                        </a>
+                      </li>
+                    </div>
+
+                    <div>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          style="text-decoration: none"
+                          href="#"
+                        >
+                          <span
+                            ><i class="fas fa-money-check-alt"></i>
+                            <strong> Domain Reseller Price</strong>
+                            <p style="font-size: 12px; font-weight: 300">
+                              See Business Domain Prices
+                            </p></span
+                          >
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          style="text-decoration: none"
+                          href="#"
+                        >
+                          <span
+                            ><i class="fas fa-briefcase"></i>
+                            <strong> Reseller Registration</strong>
+                            <p style="font-size: 12px; font-weight: 300">
+                              Start Domain Reseller Business
+                            </p></span
+                          >
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          style="text-decoration: none"
+                          href="#"
+                        >
+                          <span
+                            ><i class="fas fa-money-bill-alt"></i>
+                            <strong>.BD Domain Price</strong>
+                            <p style="font-size: 12px; font-weight: 300">
+                              Bangladesh Domain Price
+                            </p></span
+                          ></a
+                        >
+                      </li>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+
+              <!-- web-domain dropdown end -->
+
+
+              <li class="nav-item">
+                <a class="nav-link" href="#price-section">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-us">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="background: transparent; border-color: #50266c;">
+              <button class="main-btn" style="border-radius: 25px;" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- section-1 top banner start -->
+
+    <section id="home">
+      <div class="container-fluid px-0 top-banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-md-6">
+              <h1 style="color: #de1b78">Welcome to Tori IT</h1>
+              <p style="color: white">
+                Access to computers and the Internet has become a basic need for
+                education in our society
+              </p>
+              <div class="mt-4">
+                <bytton class="main-btn"
+                  >Get Now <i class="fas fa-shopping-basket ps-3"></i>
+                </bytton>
+                <!-- <bytton class="white-btn ms-lg-4 mt-lg-0 mt-4">Order Now <i class="fas fa-angle-right ps-3"></i> </bytton> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section-1 top banner end-->
+
+
+    <!-- section-2 counter start -->
+    <section id="counter">
+      <section class="counter-section">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h2><span id="count1"></span>+</h2>
+              <p>Customer</p>
+            </div>
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h2><span id="count2"></span>+</h2>
+              <p>Coverage Area</p>
+            </div>
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h2><span id="count3"></span>+</h2>
+              <p>Growing</p>
+            </div>
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h2><span id="count4"></span>+</h2>
+              <p>Servers</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+     <!-- section-2 counter end -->
+
+    <!-- why tori start-->
+    <section>
+      <div class="container food-type">
+        <div class="row align-items-center">
+          <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-0">
+            <h2>Why Tori IT</h2>
+            <p>
+              WE BRING TOGETHER CLOUD TECHNOLOGY BIG DATA AND ANALYTICS TO
+              ADDRESS CRITICAL CLIENT BUSINESS IMPERATIVES.
+            </p>
+            <ul class="list-unstyled py-3">
+              <li>Solve Complex Problems</li>
+              <li>Data Management</li>
+              <li>Enhance Customer Support</li>
+              <li>Safety and Security</li>
+              <li>Improve Resource Allocation</li>
+            </ul>
+            <button class="main-btn mt-4">Learn More</button>
+          </div>
+          <div class="col-lg-7 col-md-12">
+            <div class="card border-0">
+              <img src="images/team-1.svg" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- why tori end -->
+
+    <!-- about section start-->
+
+    <section class="About_part pt-lg-5 pb-lg-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="about_content">
+              <h4>WHO WE ARE</h4>
+              <p>
+                Tori IT Stands for Providing Quality IT Enabled Services Using
+                Latest Technologies
+              </p>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg col-md-3">
+            <div class="about_box">
+              <img src="./images/bitcoin.png" class="img-fluid" alt="Bitcoin" />
+              <h6>Software Development</h6>
+              <p>We Provide Any Kind of Software Based on Our Clints demand.</p>
+            </div>
+          </div>
+
+          <div class="col-lg col-md-3">
+            <div class="about_box">
+              <img
+                src="./images/bitcoin1.png"
+                class="img-fluid"
+                alt="Bitcoin"
+              />
+              <h6>Server Setup</h6>
+              <p>
+                We Configure all Kind of Servers. Like Media, FTP, TV & HTTP
+                Cache Servers
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg col-md-3">
+            <div class="about_box">
+              <img
+                src="./images/bitcoin2.png"
+                class="img-fluid"
+                alt="Bitcoin"
+              />
+              <h6>App Development</h6>
+              <p>We Develop Custom Android Apps According to Requirements</p>
+            </div>
+          </div>
+
+          <div class="col-lg col-md-3">
+            <div class="about_box">
+              <img
+                src="./images/bitcoin3.png"
+                class="img-fluid"
+                alt="Bitcoin"
+              />
+              <h6>Web Development</h6>
+              <p>
+                We Develop Websites and Custom Web Apps According to
+                Requirements
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section end-->
+
+<!-- Development Fields Starts -->
+    
+    <section id="about">
+      <div class="about-section wrapper">
+        <div class="container">
+          <div class="row align-item-center">
+            <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
+              <div class="card border-0">
+                <img src="images/internet-conection.svg" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12 text-sec">
+              <h2>Cloud Storage</h2>
+              <p>
+                Tori Cloud Storage (TCS) is Object storage built to store and
+                retrieve any amount of data from anywhere – websites, mobile
+                applications, media and financial software, backup and restore,
+                archive, enterprise applications, IoT devices, and big data
+                analytics. TCS guarantees up to 99.9% availability and comes
+                with no limits to data storage. TCS is enabling optimizations in
+                production and post-production workflows.
+              </p>
+              <button class="main-btn mt-4">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="container food-type">
+          <div class="row align-items-center">
+            <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-0">
+              <h2>Tori Payroll & Tax Management</h2>
+              <p>
+                is an extension of the management team for business owners and
+                human resource managers. It’s user friendly interface and
+                modular process management make it easy to grasp and most
+                customizable as you need.
+              </p>
+              <ul class="list-unstyled py-3">
+                <li>Cloud based – Access from anywhere, anytime.</li>
+                <li>Customized Salary Structure, industry focused.</li>
+                <li>Compliant and responsive to change of local law.</li>
+                <li>Your reports , your way.</li>
+                <li>Super administrative flexibility.</li>
+              </ul>
+              <button class="main-btn mt-4">Learn More</button>
+            </div>
+            <div class="col-lg-7 col-md-12">
+              <div class="card border-0">
+                <img src="images/img/payroll.svg" class="img-fluid" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Development Fields end -->
+
+    <!-- price section start-->
+    <section id="price-section">
+      <div class="container">
+        <div class="row">
+          <!-- pricing table 1 start-->
+          <div class="col-md-3 col-sm-6">
+            <div class="table">
+              <h3 class="price-title">Standard</h3>
+              <div class="price">
+                ৳1000
+                <span class="month">/Month</span>
+              </div>
+              <ul class="content-ul">
+                <li>1 CPU</li>
+                <li>2 GB RAM</li>
+                <li>30 GB SSD</li>
+                <li>Full Control Root Access</li>
+                <li>24/7 Unlimited Support</li>
+              </ul>
+              <a href="#" class="signup">Sign Up</a>
+            </div>
+          </div>
+          <!-- pricing table 1 end-->
+
+          <!-- pricing table 2 start-->
+          <div class="col-md-3 col-sm-6">
+            <div class="table">
+              <h3 class="price-title">ULTRA</h3>
+              <div class="price">
+                ৳1500
+                <span class="month">/Month</span>
+              </div>
+              <ul class="content-ul">
+                <li>2 CPU</li>
+                <li>2 GB RAM</li>
+                <li>40 GB SSD</li>
+                <li>Full Control Root Access</li>
+                <li>24/7 Unlimited Support</li>
+              </ul>
+              <a href="#" class="signup">Sign Up</a>
+            </div>
+          </div>
+          <!-- pricing table 2 end-->
+
+          <!-- pricing table 3 start-->
+
+          <div class="col-md-3 col-sm-6">
+            <div class="table">
+              <h3 class="price-title">UNIVERSAL</h3>
+              <div class="price">
+                ৳2000
+                <span class="month">/Month</span>
+              </div>
+              <ul class="content-ul">
+                <li>2 CPU</li>
+                <li>4 GB RAM</li>
+                <li>50 GB SSD</li>
+                <li>Full Control Root Access</li>
+                <li>24/7 Unlimited Support</li>
+              </ul>
+              <a href="#" class="signup">Sign Up</a>
+            </div>
+          </div>
+          <!-- pricing table 3 end-->
+
+          <!-- pricing table 4 start-->
+
+          <div class="col-md-3 col-sm-6">
+            <div class="table">
+              <h3 class="price-title">VIP</h3>
+              <div class="price">
+                ৳3500
+                <span class="month">/Month</span>
+              </div>
+              <ul class="content-ul">
+                <li>4 CPU</li>
+                <li>8 GB RAM</li>
+                <li>120 GB SSD</li>
+                <li>Full Control Root Access</li>
+                <li>24/7 Unlimited Support</li>
+              </ul>
+              <a href="#" class="signup">Sign Up</a>
+            </div>
+          </div>
+          <!-- pricing table 4 end-->
+        </div>
+      </div>
+    </section>
+
+    <!-- price section end-->
+
+    <!-- QA start -->
+    <section>
+      <div class="container food-type">
+        <div class="row align-items-center">
+          <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-0">
+            <h2>Quality Assurance & Testing</h2>
+            <p>
+              Treading on Agile development methodologies and Rational Unified
+              Process practices in testing, Enosis ensures highest quality of
+              software solutions to you. Our software testing strategy ensures
+              every component of your software are free of bugs and issues.
+            </p>
+            <!-- <ul class="list-unstyled py-3">
+              <li>Solve Complex Problems</li>
+              <li>Data Management</li>
+              <li>Enhance Customer Support</li>
+              <li>Safety and Security</li>
+              <li>Improve Resource Allocation</li>
+            </ul> -->
+            <button class="main-btn mt-4">Learn More</button>
+          </div>
+          <div class="col-lg-7 col-md-12">
+            <div class="card border-0">
+              <img src="images/qa.svg" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QA end -->
+
+    <!--explore tori start -->
+
+    <section id="explore-tori">
+      <div class="explore-food wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="text-content text-center">
+                <h2>Explore The Digital World With Tori IT</h2>
+                <p>
+                  We believe in active playful learning that aims to build a
+                  healthy relationship between digital, imagination and real
+                  world, across ages.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+              <div class="card">
+                <img src="images/img/software.svg" class="img-fluid" />
+                <div class="pt-3">
+                  <h4>Software Development</h4>
+                  <p>
+                    We provide any kind of cloud-based software solution,
+                    analytics, and big-scale software design and development.
+                    Our specialty is in cloud technologies and we also work on
+                    integration services to make traditional software
+                    cloud-ready.
+                  </p>
+
+                  <button class="mt-4 main-btn">Read More</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+              <div class="card">
+                <img src="images/img/consult-1.svg" class="img-fluid" />
+                <div class="pt-4">
+                  <h4>Consultancy</h4>
+                  <p>
+                    Tori Consultancy offers more than just technical expertise.
+                    We are strategic advisors who take a big-picture view of
+                    your organization, analyze your challenges, and help you
+                    overcome them with comprehensive, cost-effective solutions.
+                  </p>
+
+                  <button class="mt-4 main-btn">Read More</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+              <div class="card">
+                <img src="images/img/server.svg" class="img-fluid" />
+                <div class="pt-3">
+                  <h4>Private Cloud Solution</h4>
+                  <p>
+                    Tori IT is highly specialized in architecture design,
+                    deployment and automation of Private Cloud Solutions based
+                    on OpenStack. We offer multi-region, highly available, fault
+                    tolerant and load balanced design of the cloud
+                    infrastructure.
+                  </p>
+
+                  <button class="mt-4 main-btn">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--explore tori end -->
+
+    <!-- review start -->
+
+    <section id="testimonial">
+      <div class="wrapper testimonial-section">
+        <div class="container text-center">
+          <div class="text-center pb-4">
+            <h2 style="color: #50266c">Reviews</h2>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-lg-10 offset-lg-1">
+              <div
+                id="carouselExampleDark"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <!-- carousel-indicators starts -->
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide-1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="1"
+                    aria-current="true"
+                    aria-label="Slide-2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="2"
+                    aria-current="true"
+                    aria-label="Slide-3"
+                  ></button>
+                </div>
+                <!-- carousel-indicators ends -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="carousel-caption">
+                      <img src="images/review/male-avata.svg" alt="" />
+                      <p>
+                        Fast broadband is crucial in the work-from-home era and
+                        beyond, but which internet service providers can best
+                        meet your needs.
+                      </p>
+                      <h5>Person-1</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-caption">
+                      <img src="images/review/male-avata.svg" alt="" />
+                      <p>
+                        Over the past 12 months, PCMag readers have run
+                        thousands of speed tests on ISPs big and small to help
+                        us crown the fastest Canadian internet service provider.
+                      </p>
+                      <h5>Person-2</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-caption">
+                      <img src="images/review/female-avata.svg" alt="" />
+                      <p>
+                        Tired of your slow, unreliable internet connection?
+                        Maybe it's time to look at your service provider. We
+                        asked our readers to rate their ISPs.
+                      </p>
+                      <h5>Person-3</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- review end -->
+
+    <!-- faq start -->
+
+    <section id="faq">
+      <div class="faq wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="text-center pb-4">
+                <h2>Frequently Asked Question</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-sm-6 mb-4">
+              <h4>
+                <span
+                  ><img
+                    src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/25/000000/external-question-support-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png" /></span
+                >Why server is required?
+              </h4>
+              <p>
+                A server is essential in providing all the services that are
+                needed across a network, be it for large organisations or for
+                private users on the internet. Servers have a fantastic ability
+                to store all the files centrally and for different users of the
+                same network to use the files whenever they need.
+              </p>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <h4>
+                <span
+                  ><img
+                    src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/25/000000/external-question-support-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png" /></span
+                >What does a server allow you to do?
+              </h4>
+              <p>
+                A Server allows you to provide high-speed internet access across
+                a network. A Server gives you more processing power. It
+                'supercharges' your network, storing large chunks of data,
+                freeing up memory and enabling individual PCs to perform better.
+              </p>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <h4>
+                <span
+                  ><img
+                    src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/25/000000/external-question-support-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png" /></span
+                >What is the main purpose of multiple server?
+              </h4>
+              <p>
+                A multi-server environment allows you to have more services and
+                connections, supports to keep the system in working condition
+                because of dependency of resources on single system reduced, and
+                is also less expensive each month server's architecture than
+                constantly adding resources to the server.
+              </p>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <h4>
+                <span
+                  ><img
+                    src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/25/000000/external-question-support-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png" /></span
+                >Why use a server instead of a desktop?
+              </h4>
+              <p>
+                Servers are often dedicated (meaning it performs no other task
+                besides server tasks). Because a server is engineered to manage,
+                store, send and process data 24-hours a day it has to be more
+                reliable than a desktop computer and offers a variety of
+                features and hardware not typically used in the average desktop
+                computer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- faq end -->
+
+    <!-- quotes starts -->
+    <section id="book-food">
+      <div class="book-food">
+        <div class="container book-food-text">
+          <div class="row text-center">
+            <div class="col-lg-12 col-md-12">
+              <h2>
+                The best way to find yourself is to lose yourself in the service
+                of others.
+              </h2>
+            </div>
+            <!-- <div class="col-lg-3-col-md-12 mt-lg-0 mt-4">
+              <button class="main-btn">Read More</button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- quotes end -->
+
+    <!-- subscribe start -->
+
+    <section id="newsletter">
+      <div class="newsletter wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="text-content text-center pb-4">
+                <h2>
+                  Hurry up! Subscribe Our Services & Get
+                  <span> 25%</span> Off
+                </h2>
+                <p>
+                  We are all now connected by the Internet, like neurons in a
+                  giant brain.
+                </p>
+              </div>
+              <form action="" class="newsletter">
+                <div class="row">
+                  <div class="col-md-8 col-12">
+                    <input
+                      class="form-control"
+                      placeholder="Email Address Here"
+                      type="email"
+                    />
+                  </div>
+                  <div class="col-md-4 col-12">
+                    <button class="main-btn" type="submit">Subscribe</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- subscribe end -->
+
+    <!--footer start-->
+    <footer id="contact-us">
+      <div class="container">
+        <div class="row d-flex flex-wrap">
+          <div class="col-md-3 col-sm-6 col-12">
+            <h3>Contact</h3>
+            <div class="mt-25">
+              <p>
+                Tori Ltd.
+                <br />
+                Cha-70,70/A, Rupayan Millennium Square (9A), Progoti Sharoni,
+                <br />
+                North Badda, Gulshan,
+                <br />
+                Dhaka-1212, Bangladesh.
+                <br />
+                E-mail: info@tori-it.com
+                <br />
+                Phone: +88 01958 424000
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-12">
+            <h3>Development</h3>
+            <ul class="footer-list">
+              <li><a href="#">Software Development</a></li>
+              <li><a href="#">Mobile App Development</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Domain & Hosting</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 col-12">
+            <h3>Servers</h3>
+            <ul class="footer-list">
+              <li><a href="#">Cloud Server</a></li>
+              <li><a href="#">Dedicated Server</a></li>
+              <li><a href="#">Cpanel Reseller</a></li>
+              <li><a href="#">Special Offer</a></li>
+            </ul>
+          </div>
+          <!-- <div class="col-md-3 col-sm-6 col-12"></div> -->
+          <div class="col-md-3 col-sm-6 col-12">
+            <h3>About Us</h3>
+            <div class="d-flex">
+              <!-- <div class="mt-4 footer-image">
+                <img src="images/tori-logo.png" alt=""
+                />
+                
+              </div> -->
+              <div class="mt-3">
+                <p>
+                  Tori IT has started its business in the IT industry since
+                  January 1, 2022 under Bangladesh Company Act 1994. It Provides
+                  Enterprise IT solutions with international standard customer
+                  support and after sales services.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- sub-footer start -->
+        <div
+          class="sub-footer"
+          style="text-align: center; color: #50266c; letter-spacing: 1px"
+        >
+          Copyright © 2022, All Rights Reserved by
+          <span style="color: #de1b78; font-weight: 500; font-weight: bold"
+            >Tori IT</span
+          >
+        </div>
+        <!-- sub-footer end -->
+      </div>
+    </footer>
+    <!--footer end-->
+
+    <!-- js-libaries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- own-js -->
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
