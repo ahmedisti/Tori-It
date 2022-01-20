@@ -23,7 +23,7 @@ a:hover {
 
 a:hover {
   color: var(--secondry-color) !important;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 ul,
@@ -64,9 +64,11 @@ body {
 ::-webkit-scrollbar {
   width: 0.625rem;
 }
+
 ::-webkit-scrollbar-track {
   background: var(--white-color);
 }
+
 ::-webkit-scrollbar-thumb {
   background: var(--primary-color);
 }
@@ -122,7 +124,6 @@ p {
 header .logo {
   width: auto;
   height: 55px;
-  border-radius: 45px;
 }
 
 .main-btn {
@@ -220,12 +221,12 @@ header .logo {
 }
 
 .social-icons a:hover {
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
 }
 
 /*
 ==========================================
-   Header Design
+Header Design
 ==========================================
 */
 .navigation-wrap {
@@ -236,15 +237,18 @@ header .logo {
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
+
 .navigation-wrap .nav-item {
   padding: 0 0.625rem;
   transition: all 200ms linear;
 }
+
 .navbar-toggler:focus {
   outline: unset;
   border: unset;
   box-shadow: none;
 }
+
 .nav-link {
   font-size: 0.9375rem;
   font-weight: 600;
@@ -252,6 +256,7 @@ header .logo {
   color: var(--primary-color);
   letter-spacing: 1px;
 }
+
 .navigation-wrap .main-btn {
   padding: 0.3125rem 1.4375rem;
   box-shadow: none;
@@ -272,7 +277,7 @@ header .logo {
 
 /*
 ==========================================
-   top-banner Design
+top-banner Design
 ==========================================
 */
 .top-banner {
@@ -280,6 +285,11 @@ header .logo {
   background: url("../images/background-internet.jpg") no-repeat center;
   background-size: cover;
   padding: 16.875rem 0 9.375rem;
+  min-height: 100vh;
+}
+.top-banner a {
+  text-decoration: none;
+  color: white;
 }
 
 /*
@@ -291,6 +301,7 @@ header .logo {
   background-color: var(--primary-color);
   padding: 2.5rem 0;
 }
+
 .counter-section p {
   color: var(--white-color);
   text-transform: uppercase;
@@ -298,36 +309,35 @@ header .logo {
 
 /*
 ==========================================
- about section Design
+cloud section Design
 ==========================================
 */
-.about-section {
+.cloud-section {
   background: var(--white-color);
-}
-.about-section .card,
-.about-section .card img {
-  border-radius: 0.625rem;
-}
-.about-section .text-sec {
-  padding-left: 2rem;
+  padding-top: 10rem;
 }
 
-/*
-==========================================
- food type section Design
-==========================================
-*/
-.food-type {
-  padding-top: 3.25rem;
+.cloud-section h2 {
+  color: #de1b78;
+  letter-spacing: 1px;
 }
-.food-type ul li {
-  font-size: 1rem;
-  color: var(--text-color);
-  line-height: 32px;
-  position: relative;
-  margin-left: 30px;
+
+.cloud-section p {
+  color: #50266c;
+  font-weight: 400;
 }
-.food-type ul li::before {
+
+.cloud-section .pay-roll {
+  padding-top: 10rem;
+}
+
+.cloud-section .pay-roll ul li {
+  color: #50266c;
+  padding-top: 2px;
+  font-weight: 500;
+}
+
+.cloud-section ul li::before {
   position: absolute;
   left: -2.1875rem;
   color: var(--primary-color);
@@ -339,6 +349,50 @@ header .logo {
   vertical-align: middle;
   font-weight: 900;
 }
+
+.cloud-section .card,
+.cloud-section .card img {
+  border-radius: 0.625rem;
+}
+
+.cloud-section .card img {
+  width: 90%;
+}
+
+.cloud-section .text-sec {
+  padding-left: 2rem;
+}
+
+/*
+==========================================
+why-tori section Design
+==========================================
+*/
+.why-tori {
+  padding-top: 10rem;
+}
+
+.why-tori ul li {
+  font-size: 1rem;
+  color: var(--text-color);
+  line-height: 32px;
+  position: relative;
+  margin-left: 30px;
+}
+
+.why-tori ul li::before {
+  position: absolute;
+  left: -2.1875rem;
+  color: var(--primary-color);
+  font-size: 1.25rem;
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+}
+
 .story-section {
   width: 100%;
   height: 28.125rem;
@@ -347,8 +401,25 @@ header .logo {
   padding-top: 100px;
   text-align: center;
 }
+
 .story-section h2 {
   color: var(--primary-color);
+}
+
+/*
+==========================================
+quality section Design
+==========================================
+*/
+.quality {
+  padding-top: 10rem;
+}
+.quality h2 {
+  color: #de1b78;
+}
+
+.quality p {
+  color: #50266c;
 }
 
 /*
@@ -356,16 +427,33 @@ header .logo {
  explore food section Design
 ==========================================
 */
-.explore-food .card {
+.explore-tori .card {
   border: none;
   background-color: transparent;
   border-radius: 0.9375rem;
 }
-.explore-food .card img {
+
+.explore-tori {
+  padding-top: 10rem;
+}
+
+.explore-tori h2 {
+  color: #de1b78;
+  letter-spacing: 2px;
+}
+
+.explore-tori p {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #50266c;
+}
+
+.explore-tori .card img {
   border-radius: 0.9375rem;
   object-fit: cover;
 }
-.explore-food .card span {
+
+.explore-tori .card span {
   display: block;
   font-size: 1.5rem;
   font-weight: 700;
@@ -373,9 +461,22 @@ header .logo {
   padding-bottom: 1rem;
   border-bottom: 0.0625rem solid #eee;
 }
-.explore-food .card span del {
+
+.explore-tori .card span del {
   color: var(--text-gray);
   margin-left: 0.5rem;
+}
+
+.explore-tori .card button a {
+  color: white;
+}
+.explore-tori .card button a:hover {
+  color: #de1b78 !important;
+  text-decoration: none;
+}
+
+.explore-tori .card button:hover {
+  color: #de1b78 !important;
 }
 
 /*
@@ -383,10 +484,24 @@ header .logo {
  testimonial section Design
 ==========================================
 */
-.testimonial-section {
-  background: url("../images/bg/review-bg.jpg") no-repeat center;
-  background-size: cover;
+
+#testimonial {
+  padding-top: 5rem;
 }
+.testimonial-section {
+  width: 100%;
+  background: url("../images/bg/net-service.jfif") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  /* background-position:0 71.9125px; */
+}
+
+.testimonial-section h2 {
+  color: var(--white-color);
+  letter-spacing: 1 px;
+}
+
 .testimonial-section .carousel-item {
   margin-top: 3rem;
   padding: 10rem 3.125rem;
@@ -394,6 +509,7 @@ header .logo {
   border-radius: 0.9375rem;
   text-align: center;
 }
+
 .testimonial-section .carousel-caption img {
   max-width: 10rem;
   border-radius: 50%;
@@ -405,9 +521,11 @@ header .logo {
   line-height: 2.0625rem;
   padding: 0 11% 0.625rem;
 }
+
 .testimonial-section .carousel-indicators {
   bottom: -2.8125rem;
 }
+
 .testimonial-section .carousel-indicators button {
   width: 15px;
   height: 15px;
@@ -417,6 +535,7 @@ header .logo {
   margin-right: 1rem;
   opacity: 0.2;
 }
+
 .testimonial-section .carousel-indicators button.active {
   opacity: 1;
 }
@@ -426,14 +545,28 @@ header .logo {
 FAQ section Design
 ==========================================
 */
-.faq h4 span {
+.faq {
+  padding-top: 10rem;
+}
+.faq h4 {
   color: var(--primary-color);
-  font-size: 1.875rem;
+  letter-spacing: 1px;
+}
+
+.faq h4 span {
   margin-right: 0.3125rem;
 }
+.faq h2 {
+  color: #de1b78;
+  letter-spacing: 1px;
+}
+.faq p {
+  color: #50266c;
+}
+
 .book-food {
   width: 100%;
-  background: url("../images/bg/service.jpg") no-repeat center;
+  background: url("../images/bg/net-service.jfif") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   /* background-position:0 71.9125px; */
@@ -445,9 +578,11 @@ FAQ section Design
   width: 55%;
   margin: 0 auto;
 }
+
 .newsletter h2 span {
   color: var(--primary-color);
 }
+
 .newsletter .form-control {
   height: 3.225rem;
   padding: 0 1.25rem;
@@ -460,6 +595,7 @@ FAQ section Design
   color: var(--black-color);
   font-weight: 700;
 }
+
 .newsletter .form-control:hover,
 .newsletter .form-control:focus {
   outline: none;
@@ -480,7 +616,7 @@ footer {
 
 footer h3 {
   color: var(--white-color);
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   /* border-bottom: 2px solid var(--secondry-color);
    border-width: 2px;
    padding: 0 0 4px; */
@@ -500,9 +636,6 @@ footer p {
   letter-spacing: 1px;
 }
 
-footer li {
-}
-
 .footer-list {
   margin-top: 20px;
   list-style: none;
@@ -520,31 +653,45 @@ footer li {
 
 /* ===========about_part_start============= */
 
-.about_part {
+.about-part {
+  padding-top: 10rem;
+  text-align: center;
+
 }
 
-.about_content {
+.about-part h2{
+  padding-top: 5rem;
+  color: #de1b78;
+  text-shadow: 1px 1px #50266c;
+}
+
+.about-part .about_content p{
+  padding: 5rem 0;
+}
+
+.about-mission-content {
   text-align: center;
 }
 
-.about_content h4 {
+.about-mission-content h2 {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 30px;
-  letter-spacing: 0.2em;
+  letter-spacing: 2px;
+  color: #de1b78;
 }
 
-.about_content p {
+.about-mission-content p {
   margin: 0px;
   padding: 30px 0px;
-  font-size: 14px;
+  color: #50266c;
+  font-weight: 500;
 }
 
-.about_content span {
+.about-mission-content span {
   display: block;
-  width: 50px;
+  width: 150px;
   height: 2px;
-  background: #f7931a;
+  background: #de1b78;
   margin: 0 auto;
   margin-bottom: 80px;
 }
@@ -562,13 +709,13 @@ footer li {
   font-weight: 600;
   padding: 20px 0px;
   font-size: 18px;
+  color: #de1b78;
 }
 
 .about_box p {
   font-size: 14px;
-}
-
-.about_btn {
+  color: #50266c;
+  font-weight: 500;
 }
 
 .about_btn a {
@@ -615,6 +762,7 @@ footer li {
   color: #fff;
   overflow: hidden;
 }
+
 .price-title::before {
   content: "";
   height: 200px;
@@ -679,6 +827,7 @@ footer li {
   text-align: left;
   transition: all 0.3s ease 0s;
 }
+
 .content-ul li {
   padding: 7px 0 7px 50px;
   position: relative;
@@ -741,3 +890,420 @@ footer li {
 }
 
 /* price part end       */
+
+/*
+==========================================
+  Contact start
+==========================================
+*/
+/* #contact-us {
+  background-color: red;
+  background: url(images/backgroung-contact.jpg);
+  font-family: var(--secondry-font);
+} */
+
+.contact {
+  padding-top: 5rem;
+}
+
+.contactInfo p {
+  font-weight: bold;
+}
+.contactInfo h2{
+  letter-spacing: 2px;
+  text-shadow: 2px 2px #50266c;
+}
+
+.contactInfo .text {
+  letter-spacing: 1px;
+  text-shadow: 1px 1px #50266c;
+}
+
+.contact-form {
+  width: 100%;
+  padding-top: 15%;
+  background: transparent;
+}
+.contact-form h2{
+  letter-spacing: 2px;
+  text-shadow: 2px 2px #50266c;
+}
+
+.contact-form .input-box {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contact-form .input-box input,
+textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid var(--black-color);
+  outline: none;
+  background: transparent;
+ 
+}
+
+.contact-form .input-box span {
+  font-weight: 400;
+  color: var(--white-color);
+  letter-spacing: 1px;
+}
+
+.contact-btn button {
+  border-radius: 25px;
+}
+.content p {
+  color: white;
+  font-weight: 400;
+}
+
+.contact-form ::placeholder{
+  color: var(--black-color);
+  opacity: 0.7;
+}
+
+/*
+==========================================
+  Contact end
+==========================================
+*/
+
+.get-connected-steps-section {
+  position: relative;
+  padding: 50px 200px;
+  background: #f2f3f4;
+}
+
+.get-connected-steps-container {
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.get-connect .step-box {
+  width: 33.33%;
+  position: relative;
+  text-align: center;
+}
+
+.get-connect .step-box .icon {
+  margin-bottom: 25px;
+}
+
+.get-connect .icon i {
+  color: #50266c;
+}
+.get-connect .step-box .text-box p {
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #de1b78;
+}
+
+/* .get-connect .step-box.has-step-arrow::before {
+  position: absolute;
+  right: -15%;
+  top: -8%;
+  transform: translate(-50%, 50%);
+  content: "";
+  width: 65px;
+  height: 65px;
+  background-image: url(https://img.icons8.com/color/48/000000/long-arrow-right.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+} */
+
+.get-connect {
+  padding-top: 10rem;
+}
+
+.pricing-banner {
+  width: 100%;
+  background: url("../images/pricing-banner-1.jpg") no-repeat center;
+  background-size: cover;
+  padding: 16.875rem 0 14.775rem;
+  min-height: 100vh;
+}
+.pricing-content {
+  padding-top: 10rem;
+}
+.pricing-content h1 {
+  color: var(--primary-color);
+  letter-spacing: 2px;
+  padding-bottom: 2rem;
+}
+
+.pricing-banner h1 {
+  letter-spacing: 2px;
+}
+
+.product-banner {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+   url("../images/product-banner-1.jpg") no-repeat center;
+  background-size: cover;
+  padding: 16.875rem 0 14.775rem;
+  background-attachment: fixed;
+  min-height: 100vh;
+  
+}
+
+.product-banner h1 {
+  color: var(--primary-color);
+  letter-spacing: 2px;
+  text-shadow: 1px 1px var(--secondry-color);
+}
+
+.product-banner p {
+  color: snow;
+}
+
+/*
+==========================================
+ explore productsection Design
+==========================================
+*/
+
+.explore-product .card {
+  background-color: transparent;
+  border-radius: 2rem;
+  box-shadow: 5px 5px #888888;
+  padding: 2rem;
+
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.explore-product .card:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+  border-color: var(--primary-color);
+}
+
+.explore-product .card img {
+  border-radius: 0.9375rem;
+  object-fit: cover;
+}
+
+.explore-product .card span {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  padding-bottom: 1rem;
+  border-bottom: 0.0625rem solid #eee;
+}
+
+.explore-product .card span del {
+  color: var(--text-gray);
+  margin-left: 0.5rem;
+}
+
+.explore-product .card h4 {
+  text-align: center;
+  margin: 25px 0;
+  color: #de1b78;
+}
+
+.explore-product h2 {
+  color: #de1b78;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.explore-product p {
+  color: #50266c;
+  font-weight: 400;
+  text-align: start;
+}
+
+.explore-product {
+  padding-top: 10rem;
+}
+
+.about-banner {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/about-banner-1.jpg") no-repeat center;
+  background-size: cover;
+  padding: 16.875rem 0 14.775rem;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.about-banner h3 {
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  letter-spacing: 1px;
+}
+
+.about-banner h3 span {
+  color: var(--primary-color);
+  text-transform: capitalize;
+}
+
+
+.about-banner p{
+  color: var(--white-color);
+}
+
+/* about misson vision */
+
+
+.about-mission {
+  padding-top: 10rem ;
+  padding-bottom: 10rem;
+  
+}
+
+.about-mission-content {
+  text-align: center;
+}
+
+.about-mission-content h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0.2em;
+  color: #de1b78;
+}
+
+.about-mission-content p {
+  margin: 0px;
+  padding: 30px 0px;
+  font-size: 14px;
+  color: #50266c;
+  font-weight: 500;
+}
+
+
+
+
+
+
+.mission-vision .card{
+  border-color: transparent;}
+
+.mission-vision img{
+  width: 100%;
+  background: no-repeat center;
+background-size: cover;
+height: 50vh;
+
+border-radius: 25px;
+}
+
+.mission-vision .card h3{
+  color: #de1b78;
+  letter-spacing: 2px;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.mission-vision .card p{
+  color: var(--white-color);
+  letter-spacing: 1px;
+  font-weight: 400;
+  padding-top: 3rem;
+
+}
+
+.mission-vision .card h3:hover{
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+
+/* service section */
+
+
+
+.service-banner {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/services-banner.jpg") no-repeat center;
+  background-size: cover;
+  padding: 16.875rem 0 14.775rem;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.service-banner h1{
+  color: var(--secondry-color);
+  letter-spacing: 2px;
+  text-shadow: 1px 1px var(--primary-color);
+}
+
+.service-banner p {
+  color: var(--white-color);
+  letter-spacing: 1px ;
+}
+
+.explore-service .card {
+  background-color: transparent;
+  border-radius: 2rem;
+  box-shadow: 5px 5px var(--secondry-color);
+  padding: 2rem;
+
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.explore-service .card:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+  border-color: var(--secondry-color);
+}
+
+.explore-service .card img {
+  border-radius: 0.9375rem;
+  object-fit: cover;
+}
+
+.explore-service .card span {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  padding-bottom: 1rem;
+  border-bottom: 0.0625rem solid #eee;
+}
+
+.explore-service .card span del {
+  color: var(--text-gray);
+  margin-left: 0.5rem;
+}
+
+.explore-service .card h4 {
+  text-align: center;
+  margin: 25px 0;
+  color: #de1b78;
+}
+
+.explore-service h3 {
+  color: var(--secondry-color);
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.explore-service p {
+  color: var(--primary-color);
+  font-weight: 400;
+  text-align: start;
+}
+
+.explore-service {
+  padding-top: 10rem;
+}
+
+.explore-service .card .card-footer{
+  background: transparent;
+}
+
