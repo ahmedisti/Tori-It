@@ -284,8 +284,27 @@ top-banner Design
   width: 100%;
   background: url("../images/background-internet.jpg") no-repeat center;
   background-size: cover;
+  background-attachment: fixed;
   padding: 16.875rem 0 9.375rem;
   min-height: 100vh;
+}
+
+.top-banner h1 {
+  letter-spacing: 2px;
+  text-shadow: 2px 2px #50266c;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.top-banner h3 {
+  color: #50266c;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.top-banner p {
+  text-align: center;
+  text-shadow: 1px 1px #404040;
+  letter-spacing: 1px;
 }
 .top-banner a {
   text-decoration: none;
@@ -441,6 +460,12 @@ quality section Design
   color: #de1b78;
   letter-spacing: 2px;
 }
+.explore-tori h4 {
+  color: #de1b78;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 1rem;
+}
 
 .explore-tori p {
   padding-top: 2rem;
@@ -498,8 +523,11 @@ quality section Design
 }
 
 .testimonial-section h2 {
-  color: var(--white-color);
-  letter-spacing: 1 px;
+  color: var(--primary-color);
+  letter-spacing: 2 px;
+}
+.testimonial-section p {
+  color: var(--secondry-color);
 }
 
 .testimonial-section .carousel-item {
@@ -656,17 +684,20 @@ footer p {
 .about-part {
   padding-top: 10rem;
   text-align: center;
-
 }
 
-.about-part h2{
+.about-part h2 {
   padding-top: 5rem;
   color: #de1b78;
   text-shadow: 1px 1px #50266c;
+  letter-spacing: 2px;
 }
 
-.about-part .about_content p{
+.about-part .about_content p {
   padding: 5rem 0;
+  color: #50266c;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 
 .about-mission-content {
@@ -909,7 +940,7 @@ footer p {
 .contactInfo p {
   font-weight: bold;
 }
-.contactInfo h2{
+.contactInfo h2 {
   letter-spacing: 2px;
   text-shadow: 2px 2px #50266c;
 }
@@ -924,7 +955,7 @@ footer p {
   padding-top: 15%;
   background: transparent;
 }
-.contact-form h2{
+.contact-form h2 {
   letter-spacing: 2px;
   text-shadow: 2px 2px #50266c;
 }
@@ -945,7 +976,6 @@ textarea {
   border-bottom: 2px solid var(--black-color);
   outline: none;
   background: transparent;
- 
 }
 
 .contact-form .input-box span {
@@ -962,7 +992,7 @@ textarea {
   font-weight: 400;
 }
 
-.contact-form ::placeholder{
+.contact-form ::placeholder {
   color: var(--black-color);
   opacity: 0.7;
 }
@@ -1048,12 +1078,11 @@ textarea {
 .product-banner {
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-   url("../images/product-banner-1.jpg") no-repeat center;
+    url("../images/product-banner-1.jpg") no-repeat center;
   background-size: cover;
   padding: 16.875rem 0 14.775rem;
   background-attachment: fixed;
   min-height: 100vh;
-  
 }
 
 .product-banner h1 {
@@ -1151,18 +1180,15 @@ textarea {
   text-transform: capitalize;
 }
 
-
-.about-banner p{
+.about-banner p {
   color: var(--white-color);
 }
 
 /* about misson vision */
 
-
 .about-mission {
-  padding-top: 10rem ;
+  padding-top: 10rem;
   padding-bottom: 10rem;
-  
 }
 
 .about-mission-content {
@@ -1180,50 +1206,44 @@ textarea {
 .about-mission-content p {
   margin: 0px;
   padding: 30px 0px;
-  font-size: 14px;
+  font-size: 18px;
   color: #50266c;
-  font-weight: 500;
+  font-weight: 400;
 }
 
+.mission-vision .card {
+  border-color: transparent;
+}
 
-
-
-
-
-.mission-vision .card{
-  border-color: transparent;}
-
-.mission-vision img{
+.mission-vision img {
   width: 100%;
   background: no-repeat center;
-background-size: cover;
-height: 50vh;
-
-border-radius: 25px;
+  background-size: cover;
+  height: 50vh;
+  border-radius: 25px;
 }
 
-.mission-vision .card h3{
+.mission-vision .card h3 {
   color: #de1b78;
   letter-spacing: 2px;
   padding-bottom: 2rem;
   padding-top: 2rem;
+  text-align: center;
 }
-.mission-vision .card p{
+.mission-vision .card p {
   color: var(--white-color);
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-weight: 400;
   padding-top: 3rem;
-
+  text-align: center;
 }
 
-.mission-vision .card h3:hover{
+.mission-vision .card h3:hover {
   transform: scale(1.5);
   transition: 0.5s;
 }
 
 /* service section */
-
-
 
 .service-banner {
   width: 100%;
@@ -1235,7 +1255,7 @@ border-radius: 25px;
   min-height: 100vh;
 }
 
-.service-banner h1{
+.service-banner h1 {
   color: var(--secondry-color);
   letter-spacing: 2px;
   text-shadow: 1px 1px var(--primary-color);
@@ -1243,7 +1263,7 @@ border-radius: 25px;
 
 .service-banner p {
   color: var(--white-color);
-  letter-spacing: 1px ;
+  letter-spacing: 1px;
 }
 
 .explore-service .card {
@@ -1303,7 +1323,200 @@ border-radius: 25px;
   padding-top: 10rem;
 }
 
-.explore-service .card .card-footer{
+.explore-service .card .card-footer {
   background: transparent;
 }
 
+/* lets abord togther */
+
+.sign {
+  padding-top: 2rem;
+  letter-spacing: 1px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 2;
+  left: 50%;
+  top: 50%;
+  font-family: "Clip";
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #ffe6ff;
+  text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+    -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+    0 -0.5rem 2rem #de1b78, 0 0.5rem 3rem #de1b78;
+  animation: shine 2s forwards, flicker 3s infinite;
+}
+
+@keyframes blink {
+  0%,
+  22%,
+  36%,
+  75% {
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+      -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+      0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+  }
+  28%,
+  33% {
+    color: #ff65bd;
+    text-shadow: none;
+  }
+  82%,
+  97% {
+    color: #ff2483;
+    text-shadow: none;
+  }
+}
+
+.flicker {
+  animation: shine 2s forwards, blink 3s 2s infinite;
+}
+
+.fast-flicker {
+  animation: shine 2s forwards, blink 10s 1s infinite;
+}
+
+@keyframes shine {
+  0% {
+    color: #6b1839;
+    text-shadow: none;
+  }
+  100% {
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+      -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+      0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+  }
+}
+
+@keyframes flicker {
+  from {
+    opacity: 1;
+  }
+
+  4% {
+    opacity: 0.9;
+  }
+
+  6% {
+    opacity: 0.85;
+  }
+
+  8% {
+    opacity: 0.95;
+  }
+
+  10% {
+    opacity: 0.9;
+  }
+
+  11% {
+    opacity: 0.922;
+  }
+
+  12% {
+    opacity: 0.9;
+  }
+
+  14% {
+    opacity: 0.95;
+  }
+
+  16% {
+    opacity: 0.98;
+  }
+
+  17% {
+    opacity: 0.9;
+  }
+
+  19% {
+    opacity: 0.93;
+  }
+
+  20% {
+    opacity: 0.99;
+  }
+
+  24% {
+    opacity: 1;
+  }
+
+  26% {
+    opacity: 0.94;
+  }
+
+  28% {
+    opacity: 0.98;
+  }
+
+  37% {
+    opacity: 0.93;
+  }
+
+  38% {
+    opacity: 0.5;
+  }
+
+  39% {
+    opacity: 0.96;
+  }
+
+  42% {
+    opacity: 1;
+  }
+
+  44% {
+    opacity: 0.97;
+  }
+
+  46% {
+    opacity: 0.94;
+  }
+
+  56% {
+    opacity: 0.9;
+  }
+
+  58% {
+    opacity: 0.9;
+  }
+
+  60% {
+    opacity: 0.99;
+  }
+
+  68% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.9;
+  }
+
+  72% {
+    opacity: 0.95;
+  }
+
+  93% {
+    opacity: 0.93;
+  }
+
+  95% {
+    opacity: 0.95;
+  }
+
+  97% {
+    opacity: 0.93;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
