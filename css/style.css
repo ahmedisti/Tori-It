@@ -1106,7 +1106,7 @@ textarea {
 
 .product-banner {
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/product-banner-1.jpg") no-repeat center;
   background-size: cover;
   padding: 16.875rem 0 14.775rem;
@@ -1115,9 +1115,9 @@ textarea {
 }
 
 .product-banner h1 {
-  color: var(--primary-color);
+  color: var(--white-color);
   letter-spacing: 2px;
-  text-shadow: 1px 1px var(--secondry-color);
+  text-shadow: 2px 2px #888888;
 }
 
 .product-banner p {
@@ -1129,7 +1129,9 @@ textarea {
  explore productsection Design
 ==========================================
 */
-
+.explore-product{
+  padding-bottom: 5rem;
+}
 .explore-product .card {
   background-color: transparent;
   border-radius: 2rem;
@@ -1265,10 +1267,7 @@ textarea {
   
    
 }
-.card-img-overlay{
 
-  
-}
 
 .mission-vision .card h3 {
   color: #de1b78;
@@ -1295,7 +1294,7 @@ textarea {
 
 .service-banner {
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/services-banner.jpg") no-repeat center;
   background-size: cover;
   padding: 16.875rem 0 14.775rem;
@@ -1304,14 +1303,17 @@ textarea {
 }
 
 .service-banner h1 {
-  color: var(--secondry-color);
+  color: var(--white-color);
   letter-spacing: 2px;
-  text-shadow: 1px 1px var(--primary-color);
+  text-shadow: 2px 2px #888888
 }
 
 .service-banner p {
   color: var(--white-color);
   letter-spacing: 1px;
+}
+.explore-service{
+  padding-bottom: 5rem;
 }
 
 .explore-service .card {
@@ -1333,6 +1335,8 @@ textarea {
 .explore-service .card img {
   border-radius: 0.9375rem;
   object-fit: cover;
+  width: 100%;
+  height: 30vh;
 }
 
 .explore-service .card span {
@@ -1359,6 +1363,7 @@ textarea {
   color: var(--secondry-color);
   letter-spacing: 2px;
   text-align: center;
+  font-size: 20px;
 }
 
 .explore-service p {
