@@ -791,6 +791,8 @@ footer p {
   border: 1px solid #ff9b1a;
 }
 
+
+
 /* ===========about_part_end============= */
 
 /* ===========our value start============= */
@@ -1277,7 +1279,7 @@ textarea {
 
 .about-mission {
   padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-bottom: 3rem;
 }
 
 .about-mission-content {
@@ -1296,11 +1298,22 @@ textarea {
   margin: 0px;
   padding: 30px 0px;
   font-size: 18px;
-  color: #50266c;
-  font-weight: 400;
+  color: var(--black-color);
+  font-weight: 500;
 }
 .mission-vision {
   padding-bottom: 10rem;
+}
+.mission-vision .objective h2{
+padding-bottom: 2rem;
+color: var(--secondry-color);
+letter-spacing: 2px;
+}
+
+.mission-vision .objective p{
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: var(--black-color);
 }
 
 .mission-vision .card {
