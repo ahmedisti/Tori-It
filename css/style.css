@@ -1340,10 +1340,11 @@ letter-spacing: 2px;
 .mission-vision .card p {
   color: var(--black-color);
   letter-spacing: 1px;
-  font-weight: 500;
+  font-weight: 400;
   /* padding-top: 3rem; */
   text-align: center;
   font-size: 17px;
+  text-transform: uppercase;
 }
 
 .mission-vision .card h3:hover {
