@@ -999,14 +999,15 @@ footer p {
 .contactInfo p {
   font-weight: bold;
   letter-spacing: 1px;
+  color: var(--black-color) !important;
 }
 .contactInfo h2 {
-  color: var(--white-color) !important;
+  color: var(--black-color) !important;
   letter-spacing: 2px;
   text-shadow: 1px 1px #888888;
 }
 .contactInfo h3{
-  color: var(--white-color) !important;
+  color: var(--black-color) !important;
   letter-spacing: 2px;
   text-shadow: 1px 1px #888888;
 } 
@@ -1022,7 +1023,7 @@ footer p {
   /* background: transparent; */
 }
 .contact-form h2 {
-  color: var(--white-color) !important;
+  color: var(--black-color) !important;
   letter-spacing: 2px;
   text-shadow: 1px 1px #888888;
 }
@@ -1046,19 +1047,19 @@ textarea {
   font-size: 16px;
   margin: 10px 0;
   padding: 1rem;
-  border-color: var(--white-color);
+  border-color: var(--black-color);
   box-shadow: 1px 1px #888888;
       /* border: none;
       border-bottom: 2px solid var(--black-color);
       outline: none; */
   background: transparent;
   border-radius: 15px;
-  color: var(--white-color) ;
+  color: var(--black-color) ;
 }
 
 .contact-form .input-box span {
   font-weight: 400;
-  color: var(--white-color);
+  color: var(--black-color);
   letter-spacing: 1px;
 }
 
@@ -1071,7 +1072,7 @@ textarea {
 }
 
 .contact-form ::placeholder {
-  color: var(--white-color);
+  color: var(--black-color);
   letter-spacing: 1px;
   
 }
