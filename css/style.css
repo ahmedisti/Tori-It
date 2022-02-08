@@ -282,7 +282,8 @@ top-banner Design
 */
 .top-banner {
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/background-internet.jpg") no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/background-internet.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   padding: 16.875rem 0 9.375rem;
@@ -293,9 +294,8 @@ top-banner Design
   letter-spacing: 2px;
   text-align: center;
   padding-top: 1rem;
-  
 }
-.top-banner h1 span{
+.top-banner h1 span {
   text-transform: uppercase;
   text-shadow: 2px 2px #50266c;
 }
@@ -306,10 +306,8 @@ top-banner Design
   letter-spacing: 5px;
   text-shadow: 1px 1px #404040;
   font-size: 20px;
-
 }
 .top-banner p {
-  
   text-align: center;
   text-shadow: 1px 1px #404040;
   letter-spacing: 2px;
@@ -399,16 +397,16 @@ why-tori section Design
 .why-tori {
   padding-top: 10rem;
 }
-.why-tori h2{
+.why-tori h2 {
   padding-bottom: 3rem;
   letter-spacing: 2px;
   color: var(--primary-color) !important;
 }
 
-.why-tori p{
-color: black;
-font-weight: 500;
-letter-spacing: 1px;
+.why-tori p {
+  color: black;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 .why-tori ul li {
@@ -791,45 +789,40 @@ footer p {
   border: 1px solid #ff9b1a;
 }
 
-
-
 /* ===========about_part_end============= */
 
 /* ===========our value start============= */
-.our-values .our-values-content-1 h2{
-
+.our-values .our-values-content-1 h2 {
   color: var(--primary-color);
   letter-spacing: 2px;
   padding: 3rem 0rem;
-
 }
-.our-values .our-values-content-1 p{
+.our-values .our-values-content-1 p {
   letter-spacing: 1px;
   color: var(--black-color);
   padding-bottom: 3rem;
 }
 
-.our-values .our-values-content-2 h4{
+.our-values .our-values-content-2 h4 {
   letter-spacing: 1px;
   font-size: 25px;
   font-weight: 700;
 }
-.our-values .our-values-content-2 p{
+.our-values .our-values-content-2 p {
   color: var(--black-color);
 }
-.our-values .our-values-content-2 p span{
+.our-values .our-values-content-2 p span {
   font-weight: bolder;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: var(--primary-color);
 }
-.our-values .our-values-content-img img{
+.our-values .our-values-content-img img {
   width: 50%;
 }
-.values-total{
+.values-total {
   padding-bottom: 3rem;
 }
-
 
 /* price part start       */
 .table {
@@ -1006,11 +999,11 @@ footer p {
   letter-spacing: 2px;
   text-shadow: 1px 1px #888888;
 }
-.contactInfo h3{
+.contactInfo h3 {
   color: var(--black-color) !important;
   letter-spacing: 2px;
   text-shadow: 1px 1px #888888;
-} 
+}
 
 .contactInfo .text {
   letter-spacing: 1px;
@@ -1019,7 +1012,6 @@ footer p {
 
 .contact-form {
   width: 100%;
-  padding-top: 8%;
   /* background: transparent; */
 }
 .contact-form h2 {
@@ -1032,10 +1024,9 @@ footer p {
   position: relative;
   width: 100%;
   margin-top: 10px;
-  
 }
 
-.contact-form .input-box span{
+.contact-form .input-box span {
   letter-spacing: 2px !important;
   text-transform: uppercase;
 }
@@ -1049,12 +1040,12 @@ textarea {
   padding: 1rem;
   border-color: var(--black-color);
   box-shadow: 1px 1px #888888;
-      /* border: none;
+  /* border: none;
       border-bottom: 2px solid var(--black-color);
       outline: none; */
   background: transparent;
   border-radius: 15px;
-  color: var(--black-color) ;
+  color: var(--black-color);
 }
 
 .contact-form .input-box span {
@@ -1074,7 +1065,6 @@ textarea {
 .contact-form ::placeholder {
   color: var(--black-color);
   letter-spacing: 1px;
-  
 }
 
 /*
@@ -1180,7 +1170,7 @@ textarea {
  explore productsection Design
 ==========================================
 */
-.explore-product{
+.explore-product {
   padding-bottom: 5rem;
 }
 .explore-product .card {
@@ -1226,12 +1216,11 @@ textarea {
   margin: 25px 0;
   color: #de1b78;
 }
-.explore-product .card h3{
+.explore-product .card h3 {
   color: var(--primary-color);
   text-align: center;
   font-size: 20px;
   letter-spacing: 1px;
-  
 }
 
 .explore-product h2 {
@@ -1305,13 +1294,13 @@ textarea {
 .mission-vision {
   padding-bottom: 10rem;
 }
-.mission-vision .objective h2{
-padding-bottom: 2rem;
-color: var(--primary-color);
-letter-spacing: 2px;
+.mission-vision .objective h2 {
+  padding-bottom: 2rem;
+  color: var(--primary-color);
+  letter-spacing: 2px;
 }
 
-.mission-vision .objective p{
+.mission-vision .objective p {
   letter-spacing: 1px;
   font-weight: 500;
   color: var(--black-color);
@@ -1323,13 +1312,11 @@ letter-spacing: 2px;
 
 .mission-vision img {
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),   no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+    no-repeat center;
   background-size: cover;
   opacity: 9;
-  
-   
 }
-
 
 .mission-vision .card h3 {
   color: var(--secondry-color);
@@ -1368,14 +1355,14 @@ letter-spacing: 2px;
 .service-banner h1 {
   color: var(--white-color);
   letter-spacing: 2px;
-  text-shadow: 2px 2px #888888
+  text-shadow: 2px 2px #888888;
 }
 
 .service-banner p {
   color: var(--white-color);
   letter-spacing: 1px;
 }
-.explore-service{
+.explore-service {
   padding-bottom: 5rem;
 }
 
@@ -1443,196 +1430,81 @@ letter-spacing: 2px;
   background: transparent;
 }
 
-/* lets abord togther */
+.dummy-card .card {
+  height: 20rem;
+  margin: 10px;
+}
 
-.sign {
+.dummy-card .card img {
+  height: 5rem;
+  width: 10rem;
+  object-fit: contain;
+}
+
+.dummy-card .card h4 {
+  color: var(--secondry-color);
+}
+
+.dummy-card .card p {
+  font-size: 12px;
+}
+
+.profile-area{
+  padding: 50px 0;
+
+}
+.profile-area .card{
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 1rem;
+}
+.profile-area .card:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+  border-color: var(--primary-color);
+}
+
+.img1 img{
+  height: 20vh;
+
+  width: 100%;
   padding-top: 2rem;
-  letter-spacing: 1px;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  height: 50%;
-  transform: translate(-50%, -50%);
-  letter-spacing: 2;
-  left: 50%;
-  top: 50%;
-  font-family: "Clip";
+}
+
+.main-text {
+padding: 1rem 0;
+text-align: center;
+}
+.main-text h2{
   text-transform: uppercase;
-  font-size: 1.5rem;
-  color: #ffe6ff;
-  text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
-    -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
-    0 -0.5rem 2rem #de1b78, 0 0.5rem 3rem #de1b78;
-  animation: shine 2s forwards, flicker 3s infinite;
+  font-weight: 900;
+  font-size: 20px;
+  margin: 0 0 15px;
+  letter-spacing: 1px;
 }
 
-@keyframes blink {
-  0%,
-  22%,
-  36%,
-  75% {
-    color: #ffe6ff;
-    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
-      -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
-      0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
-  }
-  28%,
-  33% {
-    color: #ff65bd;
-    text-shadow: none;
-  }
-  82%,
-  97% {
-    color: #ff2483;
-    text-shadow: none;
-  }
+
+.main-text p{
+  font-size: 13px;
+  padding: 0 35px;
+  font-weight: 500;
 }
 
-.flicker {
-  animation: shine 2s forwards, blink 3s 2s infinite;
+
+.product-card .main-text h2{
+  color: var(--primary-color);
 }
 
-.fast-flicker {
-  animation: shine 2s forwards, blink 10s 1s infinite;
+.product-card .main-text p{
+  color: var(--black-color);
 }
 
-@keyframes shine {
-  0% {
-    color: #6b1839;
-    text-shadow: none;
-  }
-  100% {
-    color: #ffe6ff;
-    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
-      -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
-      0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
-  }
+.service-card .main-text h2{
+  color: var(--secondry-color);
 }
 
-@keyframes flicker {
-  from {
-    opacity: 1;
-  }
-
-  4% {
-    opacity: 0.9;
-  }
-
-  6% {
-    opacity: 0.85;
-  }
-
-  8% {
-    opacity: 0.95;
-  }
-
-  10% {
-    opacity: 0.9;
-  }
-
-  11% {
-    opacity: 0.922;
-  }
-
-  12% {
-    opacity: 0.9;
-  }
-
-  14% {
-    opacity: 0.95;
-  }
-
-  16% {
-    opacity: 0.98;
-  }
-
-  17% {
-    opacity: 0.9;
-  }
-
-  19% {
-    opacity: 0.93;
-  }
-
-  20% {
-    opacity: 0.99;
-  }
-
-  24% {
-    opacity: 1;
-  }
-
-  26% {
-    opacity: 0.94;
-  }
-
-  28% {
-    opacity: 0.98;
-  }
-
-  37% {
-    opacity: 0.93;
-  }
-
-  38% {
-    opacity: 0.5;
-  }
-
-  39% {
-    opacity: 0.96;
-  }
-
-  42% {
-    opacity: 1;
-  }
-
-  44% {
-    opacity: 0.97;
-  }
-
-  46% {
-    opacity: 0.94;
-  }
-
-  56% {
-    opacity: 0.9;
-  }
-
-  58% {
-    opacity: 0.9;
-  }
-
-  60% {
-    opacity: 0.99;
-  }
-
-  68% {
-    opacity: 1;
-  }
-
-  70% {
-    opacity: 0.9;
-  }
-
-  72% {
-    opacity: 0.95;
-  }
-
-  93% {
-    opacity: 0.93;
-  }
-
-  95% {
-    opacity: 0.95;
-  }
-
-  97% {
-    opacity: 0.93;
-  }
-
-  to {
-    opacity: 1;
-  }
+.service-card .main-text p{
+  color: var(--black-color);
 }
+
+
