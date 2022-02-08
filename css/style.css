@@ -294,11 +294,10 @@ top-banner Design
   letter-spacing: 2px;
   text-align: center;
   padding-top: 1rem;
-}
-.top-banner h1 span {
+  text-shadow: 2px 2px #80808080;
   text-transform: uppercase;
-  text-shadow: 2px 2px #50266c;
 }
+
 
 .top-banner h3 {
   color: var(--white-color);
