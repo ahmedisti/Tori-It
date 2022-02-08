@@ -283,7 +283,7 @@ top-banner Design
 .top-banner {
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../images/background-internet.jpg") no-repeat center;
+    url("../images/background-internet-min.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   padding: 16.875rem 0 9.375rem;
@@ -533,7 +533,7 @@ quality section Design
 }
 .testimonial-section {
   width: 100%;
-  background: url("../images/bg/net-service.jfif") no-repeat center;
+  background: url("../images/contact-bg-min.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 
@@ -542,16 +542,25 @@ quality section Design
 
 .testimonial-section h2 {
   color: var(--primary-color);
-  letter-spacing: 2 px;
+  letter-spacing: 2px;
 }
 .testimonial-section p {
-  color: var(--secondry-color);
+  color: var(--white-color);
+  font-weight: 300;
+  font-size: 15px !important;
+  padding-top: 10px ;
+  
+}
+.testimonial-section h5{
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1px;
 }
 
 .testimonial-section .carousel-item {
-  margin-top: 3rem;
+  margin-top: 4rem;
   padding: 10rem 3.125rem;
-  background-color: var(--white-color);
+  background-color: #0000006b;
   border-radius: 0.9375rem;
   text-align: center;
 }
@@ -559,7 +568,7 @@ quality section Design
 .testimonial-section .carousel-caption img {
   max-width: 10rem;
   border-radius: 50%;
-  padding: 0.3125rem;
+  padding: 1.3125rem;
 }
 
 .testimonial-section .carousel-item .carousel-caption p {
@@ -1148,7 +1157,7 @@ textarea {
 .product-banner {
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../images/product-banner-1.jpg") no-repeat center;
+    url("../images/product-banner-1-min.jpg") no-repeat center;
   background-size: cover;
   padding: 16.875rem 0 14.775rem;
   background-attachment: fixed;
@@ -1242,7 +1251,7 @@ textarea {
 .about-banner {
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../images/about-banner-1.jpg") no-repeat center;
+    url("../images/about-banner-1-min.jpg") no-repeat center;
   background-size: cover;
   padding: 16.875rem 0 14.775rem;
   background-attachment: fixed;
@@ -1345,7 +1354,7 @@ textarea {
 .service-banner {
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../images/services-banner.jpg") no-repeat center;
+    url("../images/services-banner-min.jpg") no-repeat center;
   background-size: cover;
   padding: 16.875rem 0 14.775rem;
   background-attachment: fixed;
@@ -1511,7 +1520,7 @@ text-align: center;
 .contact-banner {
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../images/c-bg.jpg") no-repeat center;
+    url("../images/c-bg-min.jpg") no-repeat center;
   background-size: cover;
   padding: 16.875rem 0 14.775rem;
   background-attachment: fixed;
