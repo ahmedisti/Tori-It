@@ -1508,3 +1508,23 @@ text-align: center;
 }
 
 
+.contact-banner {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/c-bg.jpg") no-repeat center;
+  background-size: cover;
+  padding: 16.875rem 0 14.775rem;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.contact-banner h1 {
+  color: var(--white-color);
+  letter-spacing: 2px;
+  text-shadow: 2px 2px #888888;
+}
+.contact-banner p {
+  color: snow;
+}
+
+
