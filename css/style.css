@@ -253,7 +253,7 @@ Header Design
   font-size: 0.9375rem;
   font-weight: 600;
   text-transform: capitalize;
-  color: var(--primary-color);
+  color: var(--white-color);
   letter-spacing: 1px;
 }
 
@@ -273,6 +273,9 @@ Header Design
   background: var(--white-color);
   box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0, 0.09);
   transition: all 0.15s ease-in-out 0s;
+}
+.navigation-wrap.scroll-on .nav-link{
+  color: var(--primary-color);
 }
 
 /*
